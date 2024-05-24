@@ -1,0 +1,74 @@
+h1{
+    text-transform: uppercase;
+    
+}
+
+header{
+    overflow: hidden;
+    background-color: black ;
+}
+
+li {
+    display: inline;
+    float: right;
+    
+}
+header a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 24px;
+    text-align: center;
+}
+
+header img{
+
+    float: left;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+#main
+{
+    
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    
+}
+img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+#about
+{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#services
+{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    
+}
